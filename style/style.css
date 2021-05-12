@@ -1,0 +1,321 @@
+@font-face{
+   font-family: 'Work Sans';
+   src: url("../import/static/WorkSans-VariableFont_wght.ttf") ;
+
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #4b3d1a;
+  cursor: crosshair;
+}
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*oooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*d888888P dP d888888P dP         88888888b 
+     88    88    88    88         88        
+     88    88    88    88        a88aaaa    
+     88    88    88    88         88        
+     88    88    88    88         88        
+     dP    dP    dP    88888888P  88888888P*/
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 2;
+
+}
+
+.intro h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 600;
+/*  border: 2px solid white;
+*/
+
+}
+
+.intro h2 {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.intro a{
+  display: inline-block;
+  text-decoration: none;
+  z-index: 1;
+  color: #4b3d1a;
+  font-size: 1em;
+  transition: transform 1s ease;
+/*  border: 2px solid white;
+*/}
+
+.intro a:hover{
+  transform: scale(1.2);
+}
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*dP 888888ba  d888888P  888888ba   .88888.  
+  88 88    `8b    88     88    `8b d8'   `8b 
+  88 88     88    88    a88aaaa8P' 88     88 
+  88 88     88    88     88   `8b. 88     88 
+  88 88     88    88     88     88 Y8.   .8P 
+  dP dP     dP    dP     dP     dP  `8888P'
+*/
+
+
+.debut {
+  width: 98vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  top: 3000px;
+  font-size: 30px;
+/*    border: 2px dotted white;
+*/  }
+
+
+
+.debut h3 {
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: 500;
+/*  border: 2px solid white;
+*/}
+
+.debut p {
+  height: 300px;
+  width: 400px;
+  font-size: 0.6em;
+/*   border: 2px solid white;
+*/margin-top: 200px;
+  margin-left: -220px; 
+/*  text-align: justify;
+*/
+}
+
+.debut em {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*d88  .d888b. .d8888P d8888b. 
+   88  Y8' `88 88'         `88 
+   88  `8bad88 88baaa.  aaad8' 
+   88      `88 88` `88     `88 
+   88  d.  .88 8b. .d8     .88 
+  d88P `8888P  `Y888P' d88888P*/
+
+.date1 {
+  width: 98vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  top: 6000px;
+  font-size: 30px;
+/*    border: 2px dotted white;
+*/  }
+
+
+.date1 h3 {
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+    font-weight: 500;
+/*  border: 2px solid white;
+*/}
+
+.date1 p {
+  height: 300px;
+  width: 400px;
+  font-size: 0.6em;
+/*   border: 2px solid white;
+*/margin-top: 200px;
+  margin-left: -80px; 
+/*  text-align: justify;*/
+
+}
+
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*d88  .d888b. .d8888P .d888b. 
+   88  Y8' `88 88'     Y8' `88 
+   88  `8bad88 88baaa. `8bad88 
+   88      `88 88` `88     `88 
+   88  d.  .88 8b. .d8 d.  .88 
+  d88P `8888P  `Y888P' `8888P*/
+
+.date2 {
+  width: 98vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  top: 9500px;
+  font-size: 30px;
+/*    border: 2px dotted white;
+*/  }
+
+
+.date2 h3 {
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+    font-weight: 500;
+/*  border: 2px solid white;
+*/}
+
+.date2 p {
+  height: 300px;
+  width: 400px;
+  font-size: 0.6em;
+/*   border: 2px solid white;
+*/margin-top: 200px;
+  margin-left: -80px; 
+/*  text-align: justify;*/
+
+}
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*d88  .d888b. d88888P d88  
+   88  Y8' `88     d8'  88  
+   88  `8bad88    d8'   88  
+   88      `88   d8'    88  
+   88  d.  .88  d8'     88  
+  d88P `8888P  d8'     d88P
+  */
+
+.date3 {
+  width: 98vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  top: 14000px;
+  font-size: 30px;
+/*    border: 2px dotted white;
+*/  }
+
+
+.date3 h3 {
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: 500;
+/*  border: 2px solid white;
+*/}
+
+.date3 p {
+  height: 300px;
+  width: 400px;
+  font-size: 0.6em;
+/*   border: 2px solid white;
+*/margin-top: 200px;
+  margin-left: -80px; 
+/*  text-align: justify;*/
+
+}
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/*d8888b.  a8888a   a8888a   a8888a  
+      `88 d8' ..8b d8' ..8b d8' ..8b 
+  .aaadP' 88 .P 88 88 .P 88 88 .P 88 
+  88'     88 d' 88 88 d' 88 88 d' 88 
+  88.     Y8'' .8P Y8'' .8P Y8'' .8P 
+  Y88888P  Y8888P   Y8888P   Y8888P*/
+
+.date4 {
+  width: 98vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  top: 16000px;
+  font-size: 30px;
+/*    border: 2px dotted white;
+*/  }
+
+
+.date4 h3 {
+  height: 40px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-weight: 500;
+/*  border: 2px solid white;
+*/}
+
+.date4 p {
+  height: 300px;
+  width: 400px;
+  font-size: 0.6em;
+/*   border: 2px solid white;
+*/margin-top: 200px;
+  margin-left: -80px; 
+/*  text-align: justify;*/
+
+}
+
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+/*ooooooooooooooooooooooooooooooooooooooo*/
+
+/* 88888888b  .88888.   .88888.  d888888P  88888888b  888888ba  
+   88        d8'   `8b d8'   `8b    88     88         88    `8b 
+  a88aaaa    88     88 88     88    88    a88aaaa    a88aaaa8P' 
+   88        88     88 88     88    88     88         88   `8b. 
+   88        Y8.   .8P Y8.   .8P    88     88         88     88 
+   dP         `8888P'   `8888P'     dP     88888888P  dP     dP*/
+
+footer {
+  height: 100vh;
+}
+
+footer h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+
+@media screen and (min-width: 1900px){
+  section{
+    font-size: 1.3em;
+  }
+}
